@@ -38,7 +38,7 @@ JC = javac
 # CLASSES is a macro consisting of 4 words (one for each java source file)
 #
 
-CLASSES = 
+CLASSES = \
 	JogoDaVelha\Computador.java
 	
 
