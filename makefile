@@ -39,7 +39,7 @@ JC = javac
 #
 
 CLASSES = \
-	Devops/JogoDaVelha\*.java
+	JogoDaVelha\*.java
 	
 
 
