@@ -40,7 +40,7 @@ JC = javac
 
 CLASSES = \
 	JogoDaVelha/*.java
-	
+
 
 
 #
