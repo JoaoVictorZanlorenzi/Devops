@@ -2,7 +2,7 @@ node {
     checkout scm
     stage('Build') {
                 sh '''
-                sudo docker build jogodavelha .
+                sudo docker build -t jogodavelha .
                 sudo docker run jogodavelha:latest /bin/bash
                 '''
     }
