@@ -3,7 +3,7 @@ node {
     stage('Build') {
                 sh '''
                 sudo docker build jogodavelha .
-                sudo docker run jogodavelha: /bin/bash
+                sudo docker run jogodavelha:latest /bin/bash
                 '''
     }
     stage('Test') {
